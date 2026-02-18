@@ -7,7 +7,7 @@ This project classifies whether a seated person’s feet are **Fully Grounded**,
 
 ## Project Structure
 ```
-/Users/danglam/Desktop/feet-check/
+/feet-check/
 ├── app.py
 ├── core/
 │   ├── detector.py      # MediaPipe pose + Gemini API client
@@ -48,7 +48,7 @@ streamlit run app.py
 ## Gemini API Setup (optional)
 If you want to use **API AI** (Gemini):
 
-1) Create a `.env` file in `/Users/danglam/Desktop/feet-check/`:
+1) Create a `.env` file in `/feet-check/`:
 ```
 GEMINI_API_KEY=YOUR_KEY_HERE
 ```
@@ -88,4 +88,4 @@ This is fast but can be inaccurate with occlusion or complex shoes.
 - If Gemini returns 429, you hit free tier limits.
 
 ## Requirements
-See `/Users/danglam/Desktop/feet-check/requirements.txt`.
+See `/feet-check/requirements.txt`.
